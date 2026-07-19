@@ -42,6 +42,25 @@ The application will automatically download the YOLOv8n model on first run. Alte
 ```
 wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt
 ```
+# Quick Setup Commands
+After creating these files, run these commands to initialize your GitHub repository:
+
+```
+# Initialize Git repository
+git init
+
+# Add all files
+git add .
+
+# Commit changes
+git commit -m "Initial commit: Tesla Autopilot Clone"
+
+# Create repository on GitHub and push
+git remote add origin https://github.com/yourusername/tesla-autopilot-clone.git
+git branch -M main
+git push -u origin main
+```
+
 ## 🚀 Usage
 Run the Application
 ```
